@@ -2,6 +2,18 @@ Data-lakes, data warehouses and data lake-houses
 ================================================
 
 # Table of Content (ToC)
+* [Overview](#overview)
+  * [Other repositories of Data Engineering helpers](#other-repositories-of-data-engineering-helpers)
+* [References](#references)
+* [Articles](#articles)
+  * [DuckDB in browser \- SQLRooms examples \- deck\.gl Mosaic](#duckdb-in-browser---sqlrooms-examples---deckgl-mosaic)
+* [Frameworks](#frameworks)
+  * [DuckDB](#duckdb)
+    * [Mosaic](#mosaic)
+    * [SQLRooms](#sqlrooms)
+  * [PostgreSQL analytical extensions](#postgresql-analytical-extensions)
+    * [pg\_lake](#pg_lake)
+    * [pg\_incremental](#pg_incremental)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
