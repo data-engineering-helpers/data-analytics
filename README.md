@@ -74,7 +74,7 @@ these companies.
 ### SQLRooms
 * [SQLRooms](https://sqlrooms.org)
 * [SQLRooms - Examples](https://sqlrooms.org/examples.html)
-* [GitHub - SQLRooms examples]((https://github.com/sqlrooms/examples)
+* [GitHub - SQLRooms examples](https://github.com/sqlrooms/examples)
 * Overview: an open source React toolkit for human and agent collaborative analytics apps
   * **Local Analytics, No Backend Required** - Leverage DuckDB's powerful SQL capabilities, enabling fast in browser data processing without a backend
   * **Own Your Data** - Data remains on your local device for maximum privacy, sub-second analytics on large datasets, and offline functionality
