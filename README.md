@@ -63,7 +63,7 @@ these companies.
 ### Mosaic
 * [Mosaic on UW IDL web site](https://idl.uw.edu/mosaic/)
 * Overview:
-  * Mosaic is a collaboration of the [UW Interactive Data Lab (IDL)]((https://idl.uw.edu/)
+  * Mosaic is a collaboration of the [UW Interactive Data Lab (IDL)](https://idl.uw.edu/)
   and the [CMU Data Interaction Group (DIG)](https://dig.cmu.edu/)
   * Mosaic is an extensible framework for linking databases and interactive views
     * **Explore massive datasets** - Visualize, select, and filter datasets with millions or billions of records
