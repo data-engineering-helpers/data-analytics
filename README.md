@@ -53,7 +53,6 @@ these companies.
 > geoarrow layers, and UWData Mosaic [idl.uw.edu/mosaic/](http://idl.uw.edu/mosaic/)
 > for efficient cross-filtering.
 
-
 # Frameworks
 
 ## DuckDB
