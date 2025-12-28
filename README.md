@@ -44,7 +44,7 @@ these companies.
 
 # Frameworks
 
-## Analytics with DuckDB in the browser
+## DuckDB
 * See also
   [Data Engineering Helpers - Knowledge Sharing - DuckDB Cheat sheet](https://github.com/data-engineering-helpers/ks-cheat-sheets/edit/main/db/duckdb/README.md)
 
