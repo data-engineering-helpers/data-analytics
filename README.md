@@ -71,7 +71,7 @@ these companies.
   * **Modern UI Components** - Comprehensive set of React components including data tables, layouts, and visualization tools for building beautiful analytics interfaces
   * **Offline Use** - Work with your data, run queries, and analyze results even without an internet connection. SQLRooms supports offline workflows using persistent storage via OPFS
 
-## PostgreSQL extensions
+## PostgreSQL analytical extensions
 
 ### `pg_lake`
 
