@@ -54,10 +54,10 @@ these companies.
   * Mosaic is a collaboration of the [UW Interactive Data Lab (IDL)]((https://idl.uw.edu/)
   and the [CMU Data Interaction Group (DIG)](https://dig.cmu.edu/)
 > Mosaic is an extensible framework for linking databases and interactive views
-> **Explore massive datasets** - Visualize, select, and filter datasets with millions or billions of records
-> **Flexible deployment** - Build data-driven web apps, or interact with data directly in Jupyter notebooks
-> **Interoperable & extensible** - Create new components that seamlessly integrate across selections and datasets
-> **Powered by DuckDB** - Mosaic pushes computation to DuckDB, both server-side and in your browser via WebAssembly
+* **Explore massive datasets** - Visualize, select, and filter datasets with millions or billions of records
+* **Flexible deployment** - Build data-driven web apps, or interact with data directly in Jupyter notebooks
+* **Interoperable & extensible** - Create new components that seamlessly integrate across selections and datasets
+* **Powered by DuckDB** - Mosaic pushes computation to DuckDB, both server-side and in your browser via WebAssembly
 
 ### SQLRooms
 * [SQLRooms](https://sqlrooms.org)
@@ -65,13 +65,12 @@ these companies.
 * [GitHub - SQLRooms examples]((https://github.com/sqlrooms/examples)
 * Overview:
 > An open source React toolkit for human and agent collaborative analytics apps
-> **Local Analytics, No Backend Required** - Leverage DuckDB's powerful SQL capabilities, enabling fast in browser data processing without a backend
-> **Own Your Data** - Data remains on your local device for maximum privacy, sub-second analytics on large datasets, and offline functionality
-> **Privacy-Preserving AI Integration** - Use agents that can write and execute SQL queries, and generate insights without sharing your data with model providers
-> **Modular Architecture** - Pick and choose the functionality you need for composable, extensible applications, with integrations for popular data visualization libraries
-> **Modern UI Components** - Comprehensive set of React components including data tables, layouts, and visualization tools for building beautiful analytics interfaces
-> **Offline Use** - Work with your data, run queries, and analyze results even without an internet connection. SQLRooms supports offline workflows using persistent storage via OPFS
-
+* **Local Analytics, No Backend Required** - Leverage DuckDB's powerful SQL capabilities, enabling fast in browser data processing without a backend
+* **Own Your Data** - Data remains on your local device for maximum privacy, sub-second analytics on large datasets, and offline functionality
+* **Privacy-Preserving AI Integration** - Use agents that can write and execute SQL queries, and generate insights without sharing your data with model providers
+* **Modular Architecture** - Pick and choose the functionality you need for composable, extensible applications, with integrations for popular data visualization libraries
+* **Modern UI Components** - Comprehensive set of React components including data tables, layouts, and visualization tools for building beautiful analytics interfaces
+* **Offline Use** - Work with your data, run queries, and analyze results even without an internet connection. SQLRooms supports offline workflows using persistent storage via OPFS
 
 ## PostgreSQL extensions
 
