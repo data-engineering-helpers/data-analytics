@@ -11,6 +11,7 @@ Data-lakes, data warehouses and data lake-houses
   * [DuckDB](#duckdb)
     * [Mosaic](#mosaic)
     * [SQLRooms](#sqlrooms)
+    * [Examples of DuckDB analyticas in the browser](#examples-of-duckdb-analyticas-in-the-browser)
     * [Onager - Graph analytics extension](#onager---graph-analytics-extension)
   * [PostgreSQL analytical extensions](#postgresql-analytical-extensions)
     * [pg\_lake](#pg_lake)
@@ -82,6 +83,26 @@ these companies.
   * **Modular Architecture** - Pick and choose the functionality you need for composable, extensible applications, with integrations for popular data visualization libraries
   * **Modern UI Components** - Comprehensive set of React components including data tables, layouts, and visualization tools for building beautiful analytics interfaces
   * **Offline Use** - Work with your data, run queries, and analyze results even without an internet connection. SQLRooms supports offline workflows using persistent storage via OPFS
+
+### Examples of DuckDB analyticas in the browser
+
+#### Wildfire history explorer
+* [GitHub - Wildfire app](https://github.com/rwygmans/wildfire-app)
+* [Live on Netlify - Wildfire app](https://fire-explorer.netlify.app/)
+* Author/main contributor: Ross Wygmans
+  ([Ross Wygmans on LinkedIn](https://www.linkedin.com/in/rosswygmans/),
+  [Ross Wygmans on GitHub](https://github.com/rwygmans))
+* [LinkedIn post](https://www.linkedin.com/posts/rosswygmans_big-shoutout-to-gjore-milevski-and-the-development-ugcPost-7411102217816027136-eYs7/),
+  Dec. 2025
+
+#### Earthbrake history explorer
+* [GitHub - deck.gl DuckDB geoArrow - Earthbrake explorer app](https://github.com/dzole0311/deckgl-duckdb-geoarrow)
+* [Live on Netlify - Earthbrake explorer app](https://linked-views-demo.netlify.app/)
+* Author/main contributor: Gjore Milevski
+  ([Gjore Milevski on LinkedIn](https://www.linkedin.com/in/gjore-milevski),
+  [Gjore Milevski on GitHub](https://github.com/dzole0311))
+* [Post on LinkedIn](https://www.linkedin.com/posts/activity-7408154271843622912-E-XE/),
+  Dec. 2025
 
 ### Onager - Graph analytics extension
 * [GitHub repository](https://github.com/CogitatorTech/onager)
