@@ -11,6 +11,7 @@ Data-lakes, data warehouses and data lake-houses
   * [DuckDB](#duckdb)
     * [Mosaic](#mosaic)
     * [SQLRooms](#sqlrooms)
+    * [Onager - Graph analytics extension](#onager---graph-analytics-extension)
   * [PostgreSQL analytical extensions](#postgresql-analytical-extensions)
     * [pg\_lake](#pg_lake)
     * [pg\_incremental](#pg_incremental)
@@ -81,6 +82,15 @@ these companies.
   * **Modular Architecture** - Pick and choose the functionality you need for composable, extensible applications, with integrations for popular data visualization libraries
   * **Modern UI Components** - Comprehensive set of React components including data tables, layouts, and visualization tools for building beautiful analytics interfaces
   * **Offline Use** - Work with your data, run queries, and analyze results even without an internet connection. SQLRooms supports offline workflows using persistent storage via OPFS
+
+### Onager - Graph analytics extension
+* [GitHub repository](https://github.com/CogitatorTech/onager)
+* [Doc - Onager](https://cogitatortech.github.io/onager/)
+* Author/main contributor: Hassan Abedi
+  ([Hassan Abedi on LinkedIn](https://www.linkedin.com/in/hassan-abedi),
+  [Hassan Abedi on GitHub](https://github.com/habedi))
+* Post on LinkedIn:
+  https://www.linkedin.com/posts/hassan-abedi_duckdb-rust-graphanalytics-activity-7410647707998044161-8A17/
 
 ## PostgreSQL analytical extensions
 
