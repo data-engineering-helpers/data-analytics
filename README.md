@@ -1,17 +1,16 @@
-Data-lakes, data warehouses and data lake-houses
-================================================
+# Data-lakes, data warehouses and data lake-houses
 
-# Table of Content (ToC)
+## Table of Content (ToC)
+
 * [Overview](#overview)
   * [Other repositories of Data Engineering helpers](#other-repositories-of-data-engineering-helpers)
-* [References](#references)
 * [Articles](#articles)
   * [DuckDB in browser \- SQLRooms examples \- deck\.gl Mosaic](#duckdb-in-browser---sqlrooms-examples---deckgl-mosaic)
 * [Frameworks](#frameworks)
   * [DuckDB](#duckdb)
     * [Mosaic](#mosaic)
     * [SQLRooms](#sqlrooms)
-    * [Examples of DuckDB analyticas in the browser](#examples-of-duckdb-analyticas-in-the-browser)
+    * [Examples of DuckDB analytics in the browser](#examples-of-duckdb-analytics-in-the-browser)
     * [Onager - Graph analytics extension](#onager---graph-analytics-extension)
   * [PostgreSQL analytical extensions](#postgresql-analytical-extensions)
     * [pg\_lake](#pg_lake)
@@ -19,7 +18,8 @@ Data-lakes, data warehouses and data lake-houses
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
-# Overview
+## Overview
+
 [This project](https://github.com/data-engineering-helpers/data-analytics)
 intends to collect, analyze and synthetize referential material
 about data analytics/analysis.
@@ -28,7 +28,8 @@ Even though the members of the GitHub organization may be employed by
 some companies, they speak on their personal behalf and do not represent
 these companies.
 
-## Other repositories of Data Engineering helpers
+### Other repositories of Data Engineering helpers
+
 * [Data Engineering Helpers - Knowledge Sharing - Cheat sheets](https://github.com/data-engineering-helpers/ks-cheat-sheets)
 * [Data Engineering Helpers - Knowledge Sharing - Data products](https://github.com/data-engineering-helpers/data-products)
 * [Data Engineering Helpers - Knowledge Sharing - Data contracts](https://github.com/data-engineering-helpers/data-contracts)
@@ -40,11 +41,10 @@ these companies.
 * [Data Engineering Helpers - Knowledge Sharing - Data pipeline deployment](https://github.com/data-engineering-helpers/data-pipeline-deployment)
 * [Data Engineering Helpers - Knowledge Sharing - Semantic layer](https://github.com/data-engineering-helpers/semantic-layer)
 
-# References
+## Articles
 
-# Articles
+### DuckDB in browser - SQLRooms examples - deck.gl Mosaic
 
-## DuckDB in browser - SQLRooms examples - deck.gl Mosaic
 * Author: Ilya Boyandin
   ([Ilya Boyandin on LinkedIn](https://www.linkedin.com/in/ilyabo/))
 * Date: Dec. 2025
@@ -55,13 +55,15 @@ these companies.
 > geoarrow layers, and UWData Mosaic [idl.uw.edu/mosaic/](http://idl.uw.edu/mosaic/)
 > for efficient cross-filtering.
 
-# Frameworks
+## Frameworks
 
-## DuckDB
+### DuckDB
+
 * See also
   [Data Engineering Helpers - Knowledge Sharing - DuckDB Cheat sheet](https://github.com/data-engineering-helpers/ks-cheat-sheets/edit/main/db/duckdb/README.md)
 
-### Mosaic
+#### Mosaic
+
 * [Mosaic on UW IDL web site](https://idl.uw.edu/mosaic/)
 * Overview:
   * Mosaic is a collaboration of the [UW Interactive Data Lab (IDL)](https://idl.uw.edu/)
@@ -72,7 +74,8 @@ these companies.
     * **Interoperable & extensible** - Create new components that seamlessly integrate across selections and datasets
     * **Powered by DuckDB** - Mosaic pushes computation to DuckDB, both server-side and in your browser via WebAssembly
 
-### SQLRooms
+#### SQLRooms
+
 * [SQLRooms](https://sqlrooms.org)
 * [SQLRooms - Examples](https://sqlrooms.org/examples.html)
 * [GitHub - SQLRooms examples](https://github.com/sqlrooms/examples)
@@ -84,9 +87,10 @@ these companies.
   * **Modern UI Components** - Comprehensive set of React components including data tables, layouts, and visualization tools for building beautiful analytics interfaces
   * **Offline Use** - Work with your data, run queries, and analyze results even without an internet connection. SQLRooms supports offline workflows using persistent storage via OPFS
 
-### Examples of DuckDB analyticas in the browser
+#### Examples of DuckDB analyticas in the browser
 
-#### Wildfire history explorer
+##### Wildfire history explorer
+
 * [GitHub - Wildfire app](https://github.com/rwygmans/wildfire-app)
 * [Live on Netlify - Wildfire app](https://fire-explorer.netlify.app/)
 * Author/main contributor: Ross Wygmans
@@ -95,7 +99,8 @@ these companies.
 * [LinkedIn post](https://www.linkedin.com/posts/rosswygmans_big-shoutout-to-gjore-milevski-and-the-development-ugcPost-7411102217816027136-eYs7/),
   Dec. 2025
 
-#### Earthbrake history explorer
+##### Earthbrake history explorer
+
 * [GitHub - deck.gl DuckDB geoArrow - Earthbrake explorer app](https://github.com/dzole0311/deckgl-duckdb-geoarrow)
 * [Live on Netlify - Earthbrake explorer app](https://linked-views-demo.netlify.app/)
 * Author/main contributor: Gjore Milevski
@@ -104,7 +109,8 @@ these companies.
 * [Post on LinkedIn](https://www.linkedin.com/posts/activity-7408154271843622912-E-XE/),
   Dec. 2025
 
-### Onager - Graph analytics extension
+#### Onager - Graph analytics extension
+
 * [GitHub repository](https://github.com/CogitatorTech/onager)
 * [Doc - Onager](https://cogitatortech.github.io/onager/)
 * Author/main contributor: Hassan Abedi
@@ -113,11 +119,12 @@ these companies.
 * Post on LinkedIn:
   https://www.linkedin.com/posts/hassan-abedi_duckdb-rust-graphanalytics-activity-7410647707998044161-8A17/
 
-## PostgreSQL analytical extensions
+### PostgreSQL analytical extensions
 
-### `pg_lake`
+#### `pg_lake`
 
-### `pg_incremental`
+#### `pg_incremental`
+
 * Post on LinkedIn: https://www.linkedin.com/posts/marcoslot_why-we-developed-pgincremental-one-of-activity-7392183986577440770-HCZU/
 * Date: Nov. 2025
 * Author: [Marco Slot](https://www.linkedin.com/in/marcoslot/)
