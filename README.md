@@ -2,19 +2,25 @@
 
 ## Table of Content (ToC)
 
-* [Overview](#overview)
-  * [Other repositories of Data Engineering helpers](#other-repositories-of-data-engineering-helpers)
-* [Articles](#articles)
-  * [DuckDB in browser \- SQLRooms examples \- deck\.gl Mosaic](#duckdb-in-browser---sqlrooms-examples---deckgl-mosaic)
-* [Frameworks](#frameworks)
-  * [DuckDB](#duckdb)
-    * [Mosaic](#mosaic)
-    * [SQLRooms](#sqlrooms)
-    * [Examples of DuckDB analytics in the browser](#examples-of-duckdb-analytics-in-the-browser)
-    * [Onager - Graph analytics extension](#onager---graph-analytics-extension)
-  * [PostgreSQL analytical extensions](#postgresql-analytical-extensions)
-    * [pg\_lake](#pg_lake)
-    * [pg\_incremental](#pg_incremental)
+* [Data\-lakes, data warehouses and data lake\-houses](#data-lakes-data-warehouses-and-data-lake-houses)
+  * [Table of Content (ToC)](#table-of-content-toc)
+  * [Overview](#overview)
+    * [Other repositories of Data Engineering helpers](#other-repositories-of-data-engineering-helpers)
+  * [Articles](#articles)
+    * [DuckDB in browser \- 3D Earth for geotagged Wikipedia articles](#duckdb-in-browser---3d-earth-for-geotagged-wikipedia-articles)
+      * [Wiki GeoParquet \- Dependencies](#wiki-geoparquet---dependencies)
+    * [DuckDB in browser \- SQLRooms examples \- deck\.gl Mosaic](#duckdb-in-browser---sqlrooms-examples---deckgl-mosaic)
+  * [Frameworks](#frameworks)
+    * [DuckDB](#duckdb)
+      * [Mosaic](#mosaic)
+      * [SQLRooms](#sqlrooms)
+      * [Examples of DuckDB analyticas in the browser](#examples-of-duckdb-analyticas-in-the-browser)
+        * [Wildfire history explorer](#wildfire-history-explorer)
+        * [Earthbrake history explorer](#earthbrake-history-explorer)
+      * [Onager \- Graph analytics extension](#onager---graph-analytics-extension)
+    * [PostgreSQL analytical extensions](#postgresql-analytical-extensions)
+      * [pg\_lake](#pg_lake)
+      * [pg\_incremental](#pg_incremental)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
@@ -67,10 +73,12 @@ these companies.
   ([Ilya Boyandin on LinkedIn](https://www.linkedin.com/in/ilyabo/))
 * Date: Dec. 2025
 * [LinkedIn post](https://www.linkedin.com/posts/ilyabo_new-sqlroomsorg-example-big-thanks-to-gjore-ugcPost-7410991784463552512-3ZvD/)
+
 > New [sqlrooms.org](http://sqlrooms.org/) example, big thanks to
-> [Gjore Milevski](https://www.linkedin.com/in/gjore-milevski/), showcasing the integration with
-> [deck.gl](http://deck.gl/), [Kyle Barron](https://www.linkedin.com/in/kylebarrongeo/)'s
-> geoarrow layers, and UWData Mosaic [idl.uw.edu/mosaic/](http://idl.uw.edu/mosaic/)
+> [Gjore Milevski](https://www.linkedin.com/in/gjore-milevski/), showcasing the
+> integration with [deck.gl](http://deck.gl/),
+> [Kyle Barron](https://www.linkedin.com/in/kylebarrongeo/)'s geoarrow layers,
+> and UWData Mosaic [idl.uw.edu/mosaic/](http://idl.uw.edu/mosaic/)
 > for efficient cross-filtering.
 
 ## Frameworks
@@ -87,23 +95,38 @@ these companies.
   * Mosaic is a collaboration of the [UW Interactive Data Lab (IDL)](https://idl.uw.edu/)
   and the [CMU Data Interaction Group (DIG)](https://dig.cmu.edu/)
   * Mosaic is an extensible framework for linking databases and interactive views
-    * **Explore massive datasets** - Visualize, select, and filter datasets with millions or billions of records
-    * **Flexible deployment** - Build data-driven web apps, or interact with data directly in Jupyter notebooks
-    * **Interoperable & extensible** - Create new components that seamlessly integrate across selections and datasets
-    * **Powered by DuckDB** - Mosaic pushes computation to DuckDB, both server-side and in your browser via WebAssembly
+    * **Explore massive datasets** - Visualize, select, and filter datasets with
+    millions or billions of records
+    * **Flexible deployment** - Build data-driven web apps, or interact with
+    data directly in Jupyter notebooks
+    * **Interoperable & extensible** - Create new components that seamlessly
+    integrate across selections and datasets
+    * **Powered by DuckDB** - Mosaic pushes computation to DuckDB, both
+    server-side and in your browser via WebAssembly
 
 #### SQLRooms
 
 * [SQLRooms](https://sqlrooms.org)
 * [SQLRooms - Examples](https://sqlrooms.org/examples.html)
 * [GitHub - SQLRooms examples](https://github.com/sqlrooms/examples)
-* Overview: an open source React toolkit for human and agent collaborative analytics apps
-  * **Local Analytics, No Backend Required** - Leverage DuckDB's powerful SQL capabilities, enabling fast in browser data processing without a backend
-  * **Own Your Data** - Data remains on your local device for maximum privacy, sub-second analytics on large datasets, and offline functionality
-  * **Privacy-Preserving AI Integration** - Use agents that can write and execute SQL queries, and generate insights without sharing your data with model providers
-  * **Modular Architecture** - Pick and choose the functionality you need for composable, extensible applications, with integrations for popular data visualization libraries
-  * **Modern UI Components** - Comprehensive set of React components including data tables, layouts, and visualization tools for building beautiful analytics interfaces
-  * **Offline Use** - Work with your data, run queries, and analyze results even without an internet connection. SQLRooms supports offline workflows using persistent storage via OPFS
+* Overview: an open source React toolkit for human and agent collaborative
+  analytics apps
+  * **Local Analytics, No Backend Required** - Leverage DuckDB's powerful SQL
+  capabilities, enabling fast in browser data processing without a backend
+  * **Own Your Data** - Data remains on your local device for maximum privacy,
+  sub-second analytics on large datasets, and offline functionality
+  * **Privacy-Preserving AI Integration** - Use agents that can write and
+  execute SQL queries, and generate insights without sharing your data with
+  model providers
+  * **Modular Architecture** - Pick and choose the functionality you need for
+  composable, extensible applications, with integrations for popular data
+  visualization libraries
+  * **Modern UI Components** - Comprehensive set of React components including
+  data tables, layouts, and visualization tools for building beautiful analytics
+  interfaces
+  * **Offline Use** - Work with your data, run queries, and analyze results even
+  without an internet connection. SQLRooms supports offline workflows using
+  persistent storage via OPFS
 
 #### Examples of DuckDB analyticas in the browser
 
@@ -134,8 +157,7 @@ these companies.
 * Author/main contributor: Hassan Abedi
   ([Hassan Abedi on LinkedIn](https://www.linkedin.com/in/hassan-abedi),
   [Hassan Abedi on GitHub](https://github.com/habedi))
-* Post on LinkedIn:
-  https://www.linkedin.com/posts/hassan-abedi_duckdb-rust-graphanalytics-activity-7410647707998044161-8A17/
+* [Post on LinkedIn](https://www.linkedin.com/posts/hassan-abedi_duckdb-rust-graphanalytics-activity-7410647707998044161-8A17/)
 
 ### PostgreSQL analytical extensions
 
@@ -143,7 +165,6 @@ these companies.
 
 #### `pg_incremental`
 
-* Post on LinkedIn: https://www.linkedin.com/posts/marcoslot_why-we-developed-pgincremental-one-of-activity-7392183986577440770-HCZU/
+* [Post on LinkedIn](https://www.linkedin.com/posts/marcoslot_why-we-developed-pgincremental-one-of-activity-7392183986577440770-HCZU/)
 * Date: Nov. 2025
 * Author: [Marco Slot](https://www.linkedin.com/in/marcoslot/)
-
