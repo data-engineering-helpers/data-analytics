@@ -40,15 +40,33 @@ these companies.
 * [Data Engineering Helpers - Knowledge Sharing - Metadata](https://github.com/data-engineering-helpers/metadata)
 * [Data Engineering Helpers - Knowledge Sharing - Data pipeline deployment](https://github.com/data-engineering-helpers/data-pipeline-deployment)
 * [Data Engineering Helpers - Knowledge Sharing - Semantic layer](https://github.com/data-engineering-helpers/semantic-layer)
+* [Data Engineering Helpers - Knowledge Sharing - Modern Data Stack (MDS) in a box](https://github.com/data-engineering-helpers/mds-in-a-box)
 
 ## Articles
+
+### DuckDB in browser - 3D Earth for geotagged Wikipedia articles
+
+* Author: Shane Loeffler
+  ([Shane Loeffler on LinkedIn](https://www.linkedin.com/in/shane-loeffler/),
+  [Shane Loeffler on GitHub](https://github.com/Shane98c))
+* Date: Apr. 2026
+* [LinkedIn post](https://www.linkedin.com/posts/shane-loeffler_maybe-useful-to-someone-else-ive-been-wanting-activity-7449226742206062592-z2RF/)
+* [Interactive demo online](https://shane98c.github.io/wiki-geoparquet/)
+* [GitHub - Wiki GeoParquet](https://github.com/Shane98c/wiki-geoparquet)
+
+#### Wiki GeoParquet - Dependencies
+
+* [GeoParquet](https://geoparquet.org/)
+* [ProtoMap docs - PMTiles](https://docs.protomaps.com/pmtiles/)
+* [DuckDB WASM](https://duckdb.org/docs/current/clients/wasm/overview)
+  * [GitHub - DuckDB WASM](https://github.com/duckdb/duckdb-wasm)
 
 ### DuckDB in browser - SQLRooms examples - deck.gl Mosaic
 
 * Author: Ilya Boyandin
   ([Ilya Boyandin on LinkedIn](https://www.linkedin.com/in/ilyabo/))
 * Date: Dec. 2025
-* LinkedIn post: https://www.linkedin.com/posts/ilyabo_new-sqlroomsorg-example-big-thanks-to-gjore-ugcPost-7410991784463552512-3ZvD/
+* [LinkedIn post](https://www.linkedin.com/posts/ilyabo_new-sqlroomsorg-example-big-thanks-to-gjore-ugcPost-7410991784463552512-3ZvD/)
 > New [sqlrooms.org](http://sqlrooms.org/) example, big thanks to
 > [Gjore Milevski](https://www.linkedin.com/in/gjore-milevski/), showcasing the integration with
 > [deck.gl](http://deck.gl/), [Kyle Barron](https://www.linkedin.com/in/kylebarrongeo/)'s
