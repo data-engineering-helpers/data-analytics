@@ -18,6 +18,9 @@
         * [Wildfire history explorer](#wildfire-history-explorer)
         * [Earthbrake history explorer](#earthbrake-history-explorer)
       * [Onager \- Graph analytics extension](#onager---graph-analytics-extension)
+      * [Hugr](#hugr)
+        * [DuckDB Jupyter kernel](#duckdb-jupyter-kernel)
+      * [Perspective](#perspective)
     * [PostgreSQL analytical extensions](#postgresql-analytical-extensions)
       * [pg\_lake](#pg_lake)
       * [pg\_incremental](#pg_incremental)
@@ -180,8 +183,9 @@ these companies.
 * [LinkedIn post](https://www.linkedin.com/posts/vladimirgribanov_duckdb-share-7451699789097824256-TdVE/)
 * Overview:
 
-> DuckDB kernel is a native Jupyter kernel written in Go that runs DuckDB queries and returns results
-> as Apache Arrow IPC streams. No Python wrapper, no magic commands — just SQL.
+> DuckDB kernel is a native Jupyter kernel written in Go that runs DuckDB
+> queries and returns results as Apache Arrow IPC streams. No Python wrapper,
+> no magic commands — just SQL.
 
 <img width="1176" height="406" alt="image"
      src="https://github.com/user-attachments/assets/766548e4-5f1a-45c8-9899-acb30a8e2e21"
