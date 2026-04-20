@@ -175,6 +175,8 @@ these companies.
 
 ##### DuckDB Jupyter kernel
 
+* [GitHub - DuckDB kernel](https://github.com/hugr-lab/duckdb-kernel)
+* [VSCode extension marketplace - Hugr result renderer](https://marketplace.visualstudio.com/items?itemName=hugr-lab.hugr-result-renderer)
 * [Medium - Building a Full-Featured DuckDB Kernel for Jupyter](https://medium.com/@gribanov.vladimir/building-a-full-featured-duckdb-kernel-for-jupyter-with-a-database-explorer-youll-actually-use-baa6f569e439)
 * Date: Apr. 2026
 * Author: Vladimir Gribanov
