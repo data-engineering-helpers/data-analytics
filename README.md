@@ -159,6 +159,45 @@ these companies.
   [Hassan Abedi on GitHub](https://github.com/habedi))
 * [Post on LinkedIn](https://www.linkedin.com/posts/hassan-abedi_duckdb-rust-graphanalytics-activity-7410647707998044161-8A17/)
 
+#### Hugr
+
+* [Hugr home page](https://hugr-lab.github.io/)
+  * [Hugr docs - Get started](https://hugr-lab.github.io/docs/get-started/)
+* [GitHub - Hugr](https://github.com/hugr-lab/hugr)
+* Overview:
+
+> The DataMesh service that provides access to various data sources through
+> common GraphQL API. The hugr is built on the top of [DuckDB](https://duckdb.org/)
+> and uses it as a calculation engine
+
+##### DuckDB Jupyter kernel
+
+* [Medium - Building a Full-Featured DuckDB Kernel for Jupyter](https://medium.com/@gribanov.vladimir/building-a-full-featured-duckdb-kernel-for-jupyter-with-a-database-explorer-youll-actually-use-baa6f569e439)
+* Date: Apr. 2026
+* Author: Vladimir Gribanov
+  ([Vladimir Gribanov on LinkedIn](https://www.linkedin.com/in/vladimirgribanov/),
+  [Vladimir Gribanov on Medium](https://medium.com/@gribanov.vladimir))
+* [LinkedIn post](https://www.linkedin.com/posts/vladimirgribanov_duckdb-share-7451699789097824256-TdVE/)
+* Overview:
+
+> DuckDB kernel is a native Jupyter kernel written in Go that runs DuckDB queries and returns results
+> as Apache Arrow IPC streams. No Python wrapper, no magic commands — just SQL.
+
+<img width="1176" height="406" alt="image"
+     src="https://github.com/user-attachments/assets/766548e4-5f1a-45c8-9899-acb30a8e2e21"
+/>
+
+#### Perspective
+
+* [Perspective home page](https://perspective-dev.github.io/)
+* [GitHub - Perspective](https://github.com/perspective-dev/perspective)
+* Overview:
+
+> Perspective is an interactive analytics and data visualization component
+> for large and streaming datasets. Build user-configurable reports, dashboards,
+> notebooks, and applications with a high-performance query engine compiled to
+> WebAssembly, Python, and Rust.
+
 ### PostgreSQL analytical extensions
 
 #### `pg_lake`
